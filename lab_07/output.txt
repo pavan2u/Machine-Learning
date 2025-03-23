@@ -1,0 +1,43 @@
+Classification Results:
+      Classifier  Train Accuracy  Test Accuracy  Precision    Recall  F1 Score
+0  Decision Tree        1.000000       0.333333   0.541667  0.333333  0.316667
+1  Random Forest        1.000000       0.000000   0.000000  0.000000  0.000000
+2       AdaBoost        0.541667       0.000000   0.000000  0.000000  0.000000
+3        XGBoost        1.000000       0.166667   0.041667  0.166667  0.066667
+4       CatBoost        1.000000       0.333333   0.541667  0.333333  0.316667
+5            SVM        0.416667       0.500000   0.250000  0.500000  0.333333
+6    Na�ve Bayes        0.625000       0.000000   0.000000  0.000000  0.000000
+7            MLP        0.416667       0.500000   0.250000  0.500000  0.333333
+Regression Results:
+                 Regressor  Train MAE  Test MAE  ...  Test MSE  Train R2   Test R2
+0  Decision Tree Regressor   0.032088  1.308595  ...  2.747000  0.998323 -0.454294
+1  Random Forest Regressor   0.000000  1.333333  ...  2.000000  1.000000 -0.058824
+2       AdaBoost Regressor   0.666667  1.333333  ...  2.000000 -0.374046 -0.058824
+3        XGBoost Regressor   0.000953  1.456964  ...  2.628679  0.999999 -0.391653
+4       CatBoost Regressor   0.050104  1.288948  ...  2.065053  0.996177 -0.093263
+5                      SVR   0.727092  1.318120  ...  1.944776 -0.078515 -0.029587
+6            MLP Regressor   0.906082  1.371185  ...  1.986996 -0.300795 -0.051939
+
+[7 rows x 7 columns]
+Clustering Results:
+KMeans Cluster Assignments:
+   distance  temperature  Cluster_KMeans
+0      0.44        42.34               2
+1      0.44        43.58               2
+2      0.44        38.33               2
+3      0.44        34.38               2
+4      0.44        37.44               2
+DBSCAN Cluster Assignments:
+   distance  temperature  Cluster_DBSCAN
+0      0.44        42.34               0
+1      0.44        43.58               0
+2      0.44        38.33               0
+3      0.44        34.38               0
+4      0.44        37.44               0
+Agglomerative Clustering Cluster Assignments:
+   distance  temperature  Cluster_Agglomerative Clustering
+0      0.44        42.34                                 0
+1      0.44        43.58                                 0
+2      0.44        38.33                                 0
+3      0.44        34.38                                 0
+4      0.44        37.44                                 0
