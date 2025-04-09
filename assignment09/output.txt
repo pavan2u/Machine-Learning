@@ -1,0 +1,7 @@
+[Running] python -u "c:\Users\arjun\OneDrive - Amrita vishwa vidyapeetham\Desktop\Study\Projects\ML\LAB-9\lab9.py"
+[Pipeline] Mean Squared Error: 119.80
+[Manual] Mean Squared Error: 119.80
+Intercept 9.720199683067793
+Prediction_local [12.59430311]
+Right: 13.146768423313713
+LIME explanation saved to lime_explanation.html
